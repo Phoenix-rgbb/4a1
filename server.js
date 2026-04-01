@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static files
-app.use(express.static("public"));
+
 
 // Handle form submission
 app.post("/submit", (req, res) => {
